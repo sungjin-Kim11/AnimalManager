@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/restart"
+        android:icon="@drawable/restart_alt_24px"
+        android:title="전체보기"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/choiceName"
+        android:title="이름">
+        <menu>
+            <item
+                android:id="@+id/choiceNameUp"
+                android:title="오름차순" />
+            <item
+                android:id="@+id/choiceNameDown"
+                android:title="내림차순" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/choiceAge"
+        android:title="나이">
+        <menu>
+            <item
+                android:id="@+id/choiceAgeUp"
+                android:title="오름차순" />
+            <item
+                android:id="@+id/choiceAgeDown"
+                android:title="내림차순" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/choiceType"
+        android:title="종류별">
+        <menu>
+            <item
+                android:id="@+id/choiceTypeDog"
+                android:title="강아지" />
+            <item
+                android:id="@+id/choiceTypeCat"
+                android:title="고양이" />
+            <item
+                android:id="@+id/choiceTypeParrot"
+                android:title="앵무새" />
+        </menu>
+    </item>
+</menu>
